@@ -16,6 +16,5 @@ function cesarCipher(word) {
   const cipherToString = cipherArray.join("");
   return cipherToString;
 }
-console.log(cesarCipher("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"));
 
 module.exports = cesarCipher;
