@@ -21,6 +21,4 @@ function cesarCipher(word) {
   }
 }
 
-console.log(cesarCipher("THE"));
-
 module.exports = cesarCipher;
